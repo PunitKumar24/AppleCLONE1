@@ -1,0 +1,27 @@
+.labelbar {
+    /* border:1px solid crimson; */
+    align-items: center;
+    justify-content: center;
+    padding: 1.5vh 2vh;
+    display: flex;
+    color: rgb(102, 102, 102);
+    font-size: 1.8vh;
+    position: relative;
+    top: 6.5%;
+    width: 100%;
+    z-index: 0;
+    background-color: white;
+}
+
+.buy-now{
+    color:rgb(24, 87, 195);
+
+}
+
+@media (max-width:850px) {
+    .labelbar {
+        text-align: center;
+        padding: 0 80px;
+    }
+    
+}

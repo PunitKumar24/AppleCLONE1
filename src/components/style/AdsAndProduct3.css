@@ -1,0 +1,138 @@
+.body3{
+    /* border: 1px solid crimson; */
+    height: 600px;
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+}
+.body3part1{
+    /* border: 1px solid rgb(56, 180, 79); */
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding-top: 70px
+}
+.div-button{
+    display: flex;
+    gap: 15px;
+}
+
+.buy{
+    background-color: rgb(241, 241, 241);
+    color: rgb(0, 106, 255);
+    padding: 13px;
+    border:1px solid rgb(0, 106, 255);;
+    height: 45px;
+    width: 70px;
+    font-size: 16px;
+    border-radius: 25px;
+    font-weight: 500;
+}
+.learnmore{
+    background-color: rgb(0, 106, 255);
+    color: white;
+    padding: 13px;
+    border: none;
+    height: 45px;
+    width: 130px;
+    font-size: 16px;
+    border-radius: 25px;
+    font-weight: 500;
+}
+
+
+.body3part1 h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.body3part1 h3{
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.body3part2{
+    /* border: 1px solid rgb(19, 1, 4); */
+    height: 350px;
+    width: 100%;
+    background: url("../images/hero_static__c9sislzzicq6_large-removebg-preview.png");
+    background: cover;
+    background-position: top;
+    background-size:35%;
+    background-repeat: no-repeat;
+}
+
+@media (max-width:850px) {
+
+    .body3{
+        /* border: 1px solid crimson; */
+        height: 520px;
+        width: 100%;
+        background-color: rgb(241, 241, 241);
+    }
+
+    .body3part1{
+        /* border: 1px solid rgb(56, 180, 79); */
+        height: 300px;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        padding-top: 70px
+    }
+
+    .body3part1 h1{
+        font-size: 32px;
+        font-weight: 600;
+    }
+    
+    .body3part1 h3{
+        font-size: 20px;
+        font-weight: 200;
+    }
+
+    .body3part2{
+        /* border: 1px solid rgb(19, 1, 4); */
+        height: 300px;
+        width: 100%;
+        background: url("../images/hero_static__c9sislzzicq6_large-removebg-preview.png");
+        background: cover;
+        background-position: top;
+        background-size:50%;
+        background-repeat: no-repeat;
+    }
+    
+    .div-button{
+        display: flex;
+        gap: 10px;
+    }
+    
+    .buy{
+        background-color: rgb(241, 241, 241);
+        color: rgb(0, 106, 255);
+        padding: 10px;
+        border:1px solid rgb(0, 106, 255);;
+        height: 40px;
+        width: 70px;
+        font-size: 14px;
+        border-radius: 25px;
+        font-weight: 500;
+    }
+    .learnmore{
+        background-color: rgb(0, 106, 255);
+        color: white;
+        padding: 10px;
+        border: none;
+        height: 39px;
+        width: 130px;
+        font-size: 14px;
+        border-radius: 25px;
+        font-weight: 500;
+    }
+    
+}

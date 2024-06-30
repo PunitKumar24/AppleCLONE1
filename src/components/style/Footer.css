@@ -1,0 +1,108 @@
+.body5 {
+    height: 690px;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    background-color: rgb(231, 231, 231);
+}
+
+.body5subpart {
+    height: 100%;
+    width: 70%;
+    /* border: 1px solid red; */
+    margin: 10px 5px;
+    font-size: 12px;
+    color: grey;
+}
+
+.lists {
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+span {
+    color: rgb(0, 89, 255);
+    text-decoration: underline;
+}
+
+.lastline {
+    color: rgb(82, 81, 81);
+}
+
+.list1 {
+    display: none;
+}
+
+
+@media (max-width:850px) {
+
+    .body5 {
+        height: 1000px;
+        width: 100%;
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: center;
+        background-color: rgb(231, 231, 231);
+    }
+
+    .lists {
+        display: none;
+        padding: 20px 0;
+        justify-content: space-between;
+    }
+
+    /* Dropdown container */
+    .list1 {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+    }
+
+    /* Dropdown button */
+    .dropbtn {
+        background-color: rgb(231, 231, 231);
+        color: rgb(150, 150, 150);
+        padding: 10px;
+        font-size: 10px;
+        border: none;
+        cursor: pointer;
+    }
+
+    /* Dropdown content (hidden by default) */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        width: 100%;
+    }
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        color: black;
+        text-decoration: none;
+        display: block;
+    }
+
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {
+        background-color: #f1f1f1
+    }
+
+    /* Show the dropdown menu (use JavaScript to add this class when the user clicks on the button) */
+    .show {
+        display: block;
+    }
+
+}
